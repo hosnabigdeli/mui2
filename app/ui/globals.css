@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.MuiBox-root {
+    justify-content: space-between
+}
