@@ -14,9 +14,9 @@ interface ButtonGroupProps {
 const ButtonGroup1: React.FC<ButtonGroupProps> = ({ size, disabled }) => {
   return (
     <>
-      <Button1 variant='contained' disabled={disabled} />
-      <Button1 variant="outlined" disabled={disabled} />
-      <Button1 variant="text" disabled={disabled} />
+      <Button1 variant='contained' disabled={disabled} size={size} />
+      <Button1 variant="outlined" disabled={disabled} size={size} />
+      <Button1 variant="text" disabled={disabled} size={size} />
 
     </>
 
